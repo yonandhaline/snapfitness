@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.snapfitnesscbb.nanda"
+    versionCode = "10"
+    version     = "1.0.1" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>Snap Fitness Cibubur</name>
+
+  <description>
+      Booking online kelas dan gym Snap Fitness cibubur selama masa new normal #AmanDiGym.
+  </description>
+
+  <author href="https://instagram.com/yonandhaline" email="yariady@snapfitness.id">
+      Snap Fitness Indonesia
+  </author>
+
+  <plugin name="cordova-plugin-whitelist" version="1" />
+
+  <access origin="*" />
+  <allow-intent href="https://*/*" />
+  <allow-navigation href="https://*/*" />
+
+</widget>
